@@ -10,3 +10,10 @@ The data used in this project is a collection of book information and ratings fr
 * [Dataset 2](https://www.kaggle.com/datasets/mdwaquarazam/datasciencebook)
 * [Dataset 3](https://www.kaggle.com/datasets/die9origephit/amazon-data-science-books)
 
+### Requirements
+The `requirements.txt` file should list all Python libraries that your notebooks
+depend on, and they will be installed using:
+
+```
+pip install -r requirements.txt
+```
