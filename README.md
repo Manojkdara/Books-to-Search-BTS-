@@ -6,5 +6,5 @@
 
 ### Data
 The data used in this project is a collection of book information and ratings from the Kaggle website. The data can be downloaded from here
-* [Dataset 1]((https://www.kaggle.com/datasets/thomaskonstantin/top-270-rated-computer-science-programing-books))
+* [Dataset 1](https://www.kaggle.com/datasets/thomaskonstantin/top-270-rated-computer-science-programing-books)
 
