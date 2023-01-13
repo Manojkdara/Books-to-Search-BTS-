@@ -1,6 +1,6 @@
 # Books-to-Search-BTS-
 
-<p align="center">[![315e4dd2-630f-42a1-a815-69ef22cff678.jpg](https://i.postimg.cc/15JzQFw2/315e4dd2-630f-42a1-a815-69ef22cff678.jpg)](https://postimg.cc/jLnT6L84)</p>
+[![315e4dd2-630f-42a1-a815-69ef22cff678.jpg](https://i.postimg.cc/15JzQFw2/315e4dd2-630f-42a1-a815-69ef22cff678.jpg)](https://postimg.cc/jLnT6L84)
 
 "Books to Search" is a project that aims to recommend books to users based on their preferences and search criteria. The project likely utilizes natural language processing and machine learning techniques to analyze user input and make personalized book recommendations.
 
