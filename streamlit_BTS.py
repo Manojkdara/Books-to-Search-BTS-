@@ -12,6 +12,7 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 import plotly.express as px
 import plotly.graph_objs as go
+import matplotlib.pyplot
 model = SentenceTransformer('bert-base-cased')
 
 df= pd.read_csv('Data.xlsx - Merged Dataset_1.csv')
@@ -37,5 +38,5 @@ if st.button("Search"):
     st.write(df_output)
     
     fig = px.bar(df_output, x='title', y='score')
-    st.plotly_chart(fig, use_container_width=True)
+    matplotlib.pyplot.bar(df_output['title'], df_output['score'])
     
