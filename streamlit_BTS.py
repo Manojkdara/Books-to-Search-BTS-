@@ -1,7 +1,6 @@
 # create a web using streamlit 
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import plotly.graph_objs as go
 import warnings
 warnings.filterwarnings("ignore")
@@ -10,8 +9,6 @@ from fastapi import FastAPI
 from sentence_transformers.util import semantic_search
 import pandas as pd
 from sentence_transformers import SentenceTransformer
-import plotly.express as px
-import plotly.graph_objs as go
 import matplotlib.pyplot
 model = SentenceTransformer('bert-base-cased')
 
