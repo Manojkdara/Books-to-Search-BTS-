@@ -1,7 +1,6 @@
 # create a web using streamlit 
 import streamlit as st
 import pandas as pd
-import plotly.graph_objs as go
 import warnings
 warnings.filterwarnings("ignore")
 import uvicorn
@@ -34,6 +33,8 @@ if st.button("Search"):
     df_output = pd.DataFrame.from_dict(output, orient='index')
     st.write(df_output)
     
-    fig = px.bar(df_output, x='title', y='score')
+    # plot the results
     matplotlib.pyplot.bar(df_output['title'], df_output['score'])
+    
+    st.pyplot()
     
