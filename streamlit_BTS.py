@@ -34,16 +34,9 @@ if st.button("Search"):
     df_output = pd.DataFrame.from_dict(output, orient='index')
     st.write(df_output)
     
-    # plot the results
-    
-    
+    # plot the result
     fig, ax = plt.subplots()
     ax.bar(df_output['title'], df_output['score'])
-
+    
     st.pyplot(fig)
-    
-    
 
-    
-    
-# run the web app
