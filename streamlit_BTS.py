@@ -6,7 +6,10 @@ warnings.filterwarnings("ignore")
 from sentence_transformers.util import semantic_search
 import pandas as pd
 from sentence_transformers import SentenceTransformer
-import matplotlib.pyplot
+import matplotlib.pyplot as plt
+import numpy as np
+
+
 model = SentenceTransformer('bert-base-cased')
 
 df= pd.read_csv('Data.xlsx - Merged Dataset_1.csv')
@@ -32,8 +35,15 @@ if st.button("Search"):
     st.write(df_output)
     
     # plot the results
-    matplotlib.pyplot.bar(df_output['title'], df_output['score'])
     
-    st.pyplot()
+    
+    fig, ax = plt.subplots()
+    ax.bar(df_output['title'], df_output['score'])
+
+    st.pyplot(fig)
+    
+    
+
+    
     
 # run the web app
