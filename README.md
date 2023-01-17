@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-<h2 align="center">BTS--Books to Search</h2>
+<h1 align="center">BTS--Books to Search</h1>
 <p align="center">
   <a href="https://github.com/Manojkdara/Books-to-Search-BTS-">
     <img src="https://user-images.githubusercontent.com/109160335/212213048-75e497ff-9775-471e-bfdf-0dba59a1540a.jpg" alt="BTS--Books to Search" width=330 height=350>
