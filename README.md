@@ -1,12 +1,23 @@
 <a name="readme-top"></a>
 
-<h1 align="center">  BTS--Books to Search 
+<h1 align="center">   
  </h1>
 
 <p align="center">
 
-![315e4dd2-630f-42a1-a815-69ef22cff678](https://user-images.githubusercontent.com/109160335/212213048-75e497ff-9775-471e-bfdf-0dba59a1540a.jpg)
+![315e4dd2-630f-42a1-a815-69ef22cff678]()
 </p>
+
+<p align="center">
+  <a href="https://github.com/Manojkdara/Books-to-Search-BTS-">
+    <img src="https://user-images.githubusercontent.com/109160335/212213048-75e497ff-9775-471e-bfdf-0dba59a1540a.jpg" alt="BTS--Books to Search" width=230 height=150>
+  </a>
+  <h2 align="center">BTS--Books to Search</h2>
+
+</p>
+
+<br>
+
 "Books to Search" is a project that aims to recommend books to users based on their preferences and search criteria. The project likely utilizes natural language processing and machine learning techniques to analyze user input and make personalized book recommendations.
 
 * This project utilizes word embeddings to make personalized recommendations to users. The system represents books and users as high-dimensional vectors in a vector space and uses these vectors to calculate the similarity between books and users.
