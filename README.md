@@ -1,16 +1,8 @@
 <a name="readme-top"></a>
 
-<h1 align="center">   
- </h1>
-
-<p align="center">
-
-![315e4dd2-630f-42a1-a815-69ef22cff678]()
-</p>
-
 <p align="center">
   <a href="https://github.com/Manojkdara/Books-to-Search-BTS-">
-    <img src="https://user-images.githubusercontent.com/109160335/212213048-75e497ff-9775-471e-bfdf-0dba59a1540a.jpg" alt="BTS--Books to Search" width=230 height=150>
+    <img src="https://user-images.githubusercontent.com/109160335/212213048-75e497ff-9775-471e-bfdf-0dba59a1540a.jpg" alt="BTS--Books to Search" width=230 height=350>
   </a>
   <h2 align="center">BTS--Books to Search</h2>
 
