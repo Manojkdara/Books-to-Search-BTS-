@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ### Built With
 
-This section should list any major frameworks/libraries used to project.
+The list of major frameworks/libraries used to project.
 
 * [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
