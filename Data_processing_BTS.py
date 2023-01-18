@@ -28,7 +28,7 @@ query = "Select * from books.books_merged;" #books_merged is the table name
 
 df = pd.read_sql(query,mydb)
 print('Data is loaded')
-
+print(df.shape)
 # insert index column  
 df.insert(0, 'Index', range(0, 0 + len(df)))
 
@@ -71,5 +71,3 @@ df2['Index'] = df['Index'].tolist()
 df2.to_pickle('Embeddings.pkl')
 print('-'*50 )
 print('Data processing is done')
-
-
