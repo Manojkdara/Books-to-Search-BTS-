@@ -43,18 +43,14 @@ df['rating']=df['rating']*10
 # fill missing values with mean of rating column
 df['rating'].fillna(df['rating'].mean(), inplace = True)
 
-# combine titles,authors and reviews into one column
-df['Final']= df['title'] + df['author']
-
 # save the dataframe to a csv file
 df.to_csv('Data.xlsx - Merged Dataset_1.csv', index=False)
-
 
 # insert bert embeddings 
 from sentence_transformers import SentenceTransformer
 model = SentenceTransformer('bert-base-cased')
 
-sentences= df['Final'].tolist()
+"""sentences= df['title'].tolist()
 sentences_embeddings=[]
 
 for i in sentences:
@@ -66,6 +62,37 @@ print('Embeddings are done')
 df2 = pd.DataFrame(columns=['Embeddings','Index'])
 df2['Embeddings'] = sentences_embeddings
 df2['Index'] = df['Index'].tolist()
+
+# Embeddings for author column
+sentences_author= df['author'].tolist()
+sentences_embeddings_author=[]
+
+for i in sentences_author:
+    temp_embeddings = model.encode(i, convert_to_tensor=True,device='cpu')
+    sentences_embeddings_author.append(temp_embeddings)"""
+    
+df2 = pd.DataFrame(columns=['Index']) 
+df2['Index'] = df['Index'].tolist()  
+    
+# function for column embeddings 
+def column_embeddings(column_name):
+    sentences_column= df[column_name].tolist()
+    sentences_embeddings_column=[]
+    
+    for i in sentences_column:
+        temp_embeddings = model.encode(i, convert_to_tensor=True,device='cpu')
+        sentences_embeddings_column.append(temp_embeddings)
+    
+    name = 'Embeddings_' + column_name
+    df2[name]=sentences_embeddings_column
+    
+    print('Embeddings are done for', column_name)
+    return df2
+    
+
+# call the function 
+column_embeddings('title')
+
 
 # save the model as pickle file 
 df2.to_pickle('Embeddings.pkl')
