@@ -43,6 +43,10 @@ df['rating']=df['rating']*10
 # fill missing values with mean of rating column
 df['rating'].fillna(df['rating'].mean(), inplace = True)
 
+# delete duplicate rows
+df.drop_duplicates(subset=['title'], keep='first', inplace=True)
+print('After deleting duplicates',df.shape)
+
 # save the dataframe to a csv file
 df.to_csv('Data.xlsx - Merged Dataset_1.csv', index=False)
 
