@@ -118,6 +118,22 @@ app = Flask(__name__)
 # app = FastAPI()
 
 
+# function to save the query 
+def create_table(query):
+    filename = "query.csv"
+    if Path(filename).is_file():
+        df = pd.read_csv(filename)
+        if query in df['query'].values:
+            df.loc[df['query'] == query, 'count'] += 1
+        else:
+            df = df.append({'query': query, 'count': 1}, ignore_index=True)
+        df.to_csv(filename, index=False)
+    else:
+        df = pd.DataFrame({'query': [query], 'count': [1]})
+        df.to_csv(filename, index=False)
+    return df
+        
+
 @app.route("/")
 def read_root():
     return {"Heartly Welcome to BTS": "This is a web app for semantic search"}
@@ -127,6 +143,7 @@ def read_root():
 @app.route('/query', methods=['GET'])
 def read_item():
     query = request.args.get('q')
+    create_table(query)
     query_embedding = model.encode(query, convert_to_tensor=True, device='cpu')
     top_k = 10
     results = semantic_search(query_embedding, df2['Embeddings_title'].to_list(), top_k=top_k)
