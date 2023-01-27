@@ -8,9 +8,13 @@
 
 <br>
 
-"Books to Search" is a project that aims to recommend books to users based on their preferences and search criteria. The project likely utilizes natural language processing and machine learning techniques to analyze user input and make personalized book recommendations.
+"The book recommendation system is a machine learning model that uses embeddings to suggest book titles based on a search query. The system is trained on a dataset of book titles, and uses this information to generate embeddings for each book. These embeddings are then used to calculate the similarity between books, allowing the system to suggest similar books to the user based on their search query."
 
-* This project utilizes word embeddings to make personalized recommendations to users. The system represents books and users as high-dimensional vectors in a vector space and uses these vectors to calculate the similarity between books and users.
+* The system is designed to be user-friendly and easy to use, allowing users to quickly and easily find the books they are looking for. 
+* In addition to creating embeddings, the system also utilizes semantic search to better understand the user's search query and suggest more relevant book titles. This approach allows the system to understand the meaning behind the user's search, rather than simply matching keywords.
+
+* The system also uses a unsupervised learning techniques to train the model, allowing it to learn from unlabeled data. This approach allows the system to adapt to new data and continue to improve over time.
+* Overall, the book recommendation system is a powerful tool for book lovers, allowing them to easily discover new books and find their next favorite read.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
