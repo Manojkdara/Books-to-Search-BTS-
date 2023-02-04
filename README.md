@@ -42,4 +42,8 @@ The list of major frameworks/libraries used to project.
 
 * [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+### Installation
+* Clone the repository https://github.com/manojkdara/Books-to-Search-BTS-.git
+ * Install the required packages using pip install -r requirements.txt
+* Run the application using streamlit run home.py
