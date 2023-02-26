@@ -49,9 +49,25 @@ The list of major frameworks/libraries used to project.
 * Run the application using streamlit run home.py
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+### Results/ Web page Visuals
+##### HomePage 
+![Home Page](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Picture1.png?raw=true) 
+##### Visualization 1(Line graph)
+![Visualization-1](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Picture2.png?raw=true)
+##### Visualization 2(Table)
+![Visualization-2](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Picture3.png?raw=true)
+##### Visualization 3(Barchart)
+![Visualization-3](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Picture4.png?raw=true)
+##### Visualization 4(Piechart)
+![Visualization-3](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Picture5.png?raw=true)
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ### Contributors
 
-* Manoj Kumar Dara
-* Divyagana Kothari 
-* Farnaz 
-* Julian 
+* Manoj Kumar Dara [GitHub](https://github.com/Manojkdara)
+* Divyagana Kothari [GitHub](https://github.com/DivyanganaKothari)
+* Farnaz Arghavan  
+* Julian Stülp
+
+
