@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 The list of major frameworks/libraries used to project.
 
-* [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+![](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Screenshot%202023-02-26%20164129.png?raw=true)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ### Installation
