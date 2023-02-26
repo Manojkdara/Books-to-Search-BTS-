@@ -47,3 +47,11 @@ The list of major frameworks/libraries used to project.
 * Clone the repository https://github.com/manojkdara/Books-to-Search-BTS-.git
  * Install the required packages using pip install -r requirements.txt
 * Run the application using streamlit run home.py
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+### Contributors
+
+* Manoj Kumar Dara
+* Divyagana Kothari 
+* Farnaz 
+* Julian 
