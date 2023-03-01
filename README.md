@@ -72,4 +72,4 @@ The list of major frameworks/libraries used to project.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ### Special Thanks
-Special thanks to **Prof. Dr. Mohamed Amine Chatti**,  *Shoeb Joarder,M.Sc* and *Clara Siepmann,M.Sc*. for their invaluable guidance and support in shaping the direction of this project."
+Special thanks to **Prof. Dr. Mohamed Amine Chatti**,  *Shoeb Joarder,M.Sc* and *Clara Siepmann,M.Sc*. for their invaluable guidance and support in  direction of the project."
