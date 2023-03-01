@@ -67,7 +67,7 @@ The list of major frameworks/libraries used to project.
 
 * Manoj Kumar Dara [GitHub](https://github.com/Manojkdara)
 * Divyagana Kothari [GitHub](https://github.com/DivyanganaKothari)
-* Farnaz Arghavan  
+* Farnaz Arghavan  [GitHub](https://github.com/Farnaz-AR)
 * Julian Stülp
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
