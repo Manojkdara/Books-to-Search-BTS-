@@ -5,12 +5,10 @@ warnings.filterwarnings("ignore")
 from sentence_transformers.util import semantic_search
 import pandas as pd 
 from sentence_transformers import SentenceTransformer
-from pathlib import Path
 import plotly.express as px
 import plotly.graph_objs as go
 from config import SqlEngine, GetDataFrameFromSqlQuery, GetSelectBooksQuery, GetSelectEmbeddingsQuery, GetSelectQueryStatistic, SetStyle
 import numpy as np
-import plotly.colors
 
 # Style
 SetStyle(st)
@@ -70,7 +68,7 @@ top_k = st.number_input(label='Amount of results', min_value=1, max_value=20, va
 
 if st.button("Search"):  # Get Search Query
     if not query or query == "": 
-        st.stop() # dont proceed if emty request
+        st.stop() # dont proceed if empty request
     
     # Get Data of Books
     dfBooks = GetDataFrameFromSqlQuery(GetSelectBooksQuery(), engine)
@@ -80,7 +78,7 @@ if st.button("Search"):  # Get Search Query
     # get embeddings from mysql
     dfEmbTempAll = GetDataFrameFromSqlQuery(GetSelectEmbeddingsQuery(), engine)
     # convert Mixed Dataframe into numpy array
-    dfEmbTempNumpy = dfEmbTempAll.drop(columns=['index']).to_numpy(dtype=np.float32)
+    dfEmbTempNumpy = dfEmbTempAll.drop(columns=['index']).to_numpy(dtype=np.float32)#tensor object
     
     if not hasattr(st.cache, 'model'): # cache model initalization for performance
         st.cache.model = SentenceTransformer('bert-base-cased')
@@ -104,7 +102,7 @@ if st.button("Search"):  # Get Search Query
     st.write(df_output)
     st.cache.df_output_link=df_output_link
 
-    #vis
+    #visualisation
     st.markdown('### Bar Chart showing top ' + str(len(df_output_link)) + ' Books according to the similarity score')
     fig = px.bar(df_output, x='title', y='score')
     fig.update_layout(xaxis={'categoryorder': 'total descending'}, yaxis={'title': 'score'},
