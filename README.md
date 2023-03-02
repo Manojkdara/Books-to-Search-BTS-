@@ -52,7 +52,7 @@ The list of major frameworks/libraries used to project.
 * Clone the repository https://github.com/manojkdara/Books-to-Search-BTS-.git
  * Install the required packages using pip install -r requirements.txt
 * Run the application using streamlit run home.py
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ### Results/ Web page Visuals
 ##### HomePage 
@@ -72,7 +72,7 @@ The list of major frameworks/libraries used to project.
 * Expanding the database of books to include a larger variety of titles.
 * Improving the interface to make it more user friendly.
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ### Contributors
 
@@ -84,3 +84,5 @@ The list of major frameworks/libraries used to project.
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ### Special Thanks
 Special thanks to **Prof. Dr. Mohamed Amine Chatti**,  *Shoeb Joarder,M.Sc* and *Clara Siepmann,M.Sc*. for their invaluable guidance and support in  direction of the project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
