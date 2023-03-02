@@ -78,6 +78,13 @@ The list of major frameworks/libraries used to project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+### Take a Closer Look: Our Demo
+
+Want to see our project in action? Click the link below to watch the demo and get a sense of how our innovative approach is 
+![image](https://user-images.githubusercontent.com/109160335/222577793-abaa5753-ffd9-4cca-8445-01488afb3e2e.png)
+https://www.youtube.com/watch?v=QDvGCOXo3dk&ab_channel=DivyanganaKothari
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ### Contributors
