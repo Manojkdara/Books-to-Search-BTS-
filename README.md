@@ -23,6 +23,11 @@ The data used in this project is a collection of book information and ratings fr
 * [Dataset 1](https://www.kaggle.com/datasets/thomaskonstantin/top-270-rated-computer-science-programing-books)
 * [Dataset 2](https://www.kaggle.com/datasets/mdwaquarazam/datasciencebook)
 * [Dataset 3](https://www.kaggle.com/datasets/die9origephit/amazon-data-science-books)
+* ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+### Implementation 
+##### Flow chart
+![Implementation ](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Screenshot_20230302_180621.png?raw=true)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
