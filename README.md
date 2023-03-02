@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-<h1 align="center">BTS--Books to Search</h1>
+<h1 align="center">BTS--Books to Search 📖</h1>
 <p align="center">
   <a href="https://github.com/Manojkdara/Books-to-Search-BTS-">
     <img src="https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Screenshot_20230302_214817.png"  width=830 height=350>
@@ -18,20 +18,20 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Data
+### Data 📑
 The data used in this project is a collection of book information and ratings from the Kaggle website. The data can be downloaded from here
 * [Dataset 1](https://www.kaggle.com/datasets/thomaskonstantin/top-270-rated-computer-science-programing-books)
 * [Dataset 2](https://www.kaggle.com/datasets/mdwaquarazam/datasciencebook)
 * [Dataset 3](https://www.kaggle.com/datasets/die9origephit/amazon-data-science-books)
 * ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Implementation 
+### Implementation ✍️
 ##### Flow chart
 ![Implementation ](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Screenshot_20230302_180621.png?raw=true)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Requirements
+### Requirements 🤌🏻
 The `requirements.txt` file consists list all Python libraries that used in this project, to make it easier type the below command in the terminal
 
 ```
@@ -41,14 +41,14 @@ pip install -r requirements.txt
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-### Built With
+### Built With ⛏
 
 The list of major frameworks/libraries used to project.
 
 ![](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Screenshot%202023-02-26%20164129.png?raw=true)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-### Installation
+### Installation 🔌🛠️
 * Clone the repository https://github.com/manojkdara/Books-to-Search-BTS-.git
  * Install the required packages using pip install -r requirements.txt
 * Run the application using streamlit run home.py
@@ -57,7 +57,7 @@ The list of major frameworks/libraries used to project.
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-### Results/ Web page Visuals
+### Results/ Web page Visuals 📈
 ##### HomePage 
 ![Home Page](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Picture1.png?raw=true) 
 ##### Visualization 1(Line graph)
@@ -70,7 +70,7 @@ The list of major frameworks/libraries used to project.
 ![Visualization-3](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Picture5.png?raw=true)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-### Further Improvements
+### Further Improvements 🏋️
 * Improving the recommendation additional features such as book genres, description , and user preferences.
 * Expanding the database of books to include a larger variety of titles.
 * Improving the interface to make it more user friendly.
@@ -79,15 +79,16 @@ The list of major frameworks/libraries used to project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-### Take a Closer Look: Our Demo
+### Take a Closer Look: Our Demo ▶️
+
 
 Want to see our project in action? Click the link below to watch the demo and get a sense of how our innovative approach is 
-![image](https://user-images.githubusercontent.com/109160335/222577793-abaa5753-ffd9-4cca-8445-01488afb3e2e.png)
-https://www.youtube.com/watch?v=QDvGCOXo3dk&ab_channel=DivyanganaKothari
+
+![image](https://user-images.githubusercontent.com/109160335/222578138-6b73bb13-f2f3-4c72-8b87-c38ee5a37764.png)https://www.youtube.com/watch?v=QDvGCOXo3dk&ab_channel=DivyanganaKothari
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-### Contributors
+### Contributors 👥
 
 * Manoj Kumar Dara [GitHub](https://github.com/Manojkdara)
 * Divyagana Kothari [GitHub](https://github.com/DivyanganaKothari)
@@ -95,7 +96,7 @@ https://www.youtube.com/watch?v=QDvGCOXo3dk&ab_channel=DivyanganaKothari
 * Julian Stülp
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-### Special Thanks
+### Special Thanks 🙏
 Special thanks to **Prof. Dr. Mohamed Amine Chatti**,  *Shoeb Joarder,M.Sc* and *Clara Siepmann,M.Sc*. for their invaluable guidance and support in  direction of the project.
 
 
