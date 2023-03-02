@@ -66,6 +66,12 @@ The list of major frameworks/libraries used to project.
 ##### Visualization 4(Piechart)
 ![Visualization-3](https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Picture5.png?raw=true)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+### Further Improvements
+* Improving the recommendation additional features such as book genres, description , and user preferences.
+* Expanding the database of books to include a larger variety of titles.
+* Improving the interface to make it more user friendly.
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ### Contributors
