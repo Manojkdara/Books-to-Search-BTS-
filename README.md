@@ -2,7 +2,7 @@
 <h1 align="center">BTS--Books to Search</h1>
 <p align="center">
   <a href="https://github.com/Manojkdara/Books-to-Search-BTS-">
-    <img src="https://user-images.githubusercontent.com/109160335/212213048-75e497ff-9775-471e-bfdf-0dba59a1540a.jpg" alt="BTS--Books to Search" width=330 height=350>
+    <img src="https://github.com/Manojkdara/Books-to-Search-BTS-/blob/main/Screenshots/Screenshot_20230302_185941.png"  width=830 height=350>
   </a>
 </p>
 
